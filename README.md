@@ -12,11 +12,11 @@ if (isNotCI) {
 ```
 
 ## CLI Usage
-For CLI usage you need to have the is-ci executable in your PATH. There's a few ways to do that:
+For CLI usage you need to have the is-not-ci executable in your PATH. There's a few ways to do that:
 
-- Either install the module globally using npm install is-ci -g
+- Either install the module globally using npm install is-not-ci -g
 - Or add the module as a dependency to your app in which case it can be used inside your package.json scripts as is
-- Or provide the full path to the executable, e.g. ./node_modules/.bin/is-ci
+- Or provide the full path to the executable, e.g. ./node_modules/.bin/is-not-ci
 
 ```bash
 is-not-ci && echo "This is not a CI server"
