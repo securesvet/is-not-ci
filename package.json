@@ -1,6 +1,6 @@
 {
   "name": "is-not-ci",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "check if you are running non ci environment",
   "type": "commonjs",
   "bin": "bin.js",

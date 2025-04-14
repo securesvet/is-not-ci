@@ -1,6 +1,6 @@
 # is-not-ci
 
-Returns `true` if the current environment is **NOT** a Continiouse Integration server
+Returns `true` if the current environment is **NOT** a Continuous Integration server
 
 ## Programmatic Usage
 ```js
