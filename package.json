@@ -23,8 +23,10 @@
     "test": "node test.js"
   },
   "dependencies": {
-    "assert": "^2.1.0",
-    "ci-info": "^4.2.0",
-    "clear-module": "^4.1.2"
+    "ci-info": "^4.2.0"
+  },
+  "devDependencies": {
+    "clear-module": "^4.1.2",
+    "assert": "^2.1.0"
   }
 }
