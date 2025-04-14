@@ -4,10 +4,10 @@ Returns `true` if the current environment is **NOT** a Continiouse Integration s
 
 ## Programmatic Usage
 ```js
-const isCI = require('is-ci')
+const isNotCI = require('is-not-ci')
 
-if (isCI) {
-  console.log('The code is running on a CI server')
+if (isNotCI) {
+  console.log('The code is not running on a CI server')
 }
 ```
 
