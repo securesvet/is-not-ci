@@ -19,7 +19,7 @@ For CLI usage you need to have the is-ci executable in your PATH. There's a few 
 - Or provide the full path to the executable, e.g. ./node_modules/.bin/is-ci
 
 ```bash
-is-ci && echo "This is a CI server"
+is-not-ci && echo "This is not a CI server"
 ```
 
 ### P.S.
