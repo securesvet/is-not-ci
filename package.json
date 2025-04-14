@@ -1,0 +1,30 @@
+{
+  "name": "is-not-ci",
+  "version": "1.0.0",
+  "description": "check if you are running non ci environment",
+  "type": "commonjs",
+  "bin": "bin.js",
+  "main": "index.js",
+  "keywords": [
+    "is-not-ci",
+    "ci"
+  ],
+  "homepage": "https://github.com/securesvet/is-not-ci#readme",
+  "bugs": {
+    "url": "https://github.com/securesvet/is-not-ci/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/securesvet/is-not-ci.git"
+  },
+  "license": "ISC",
+  "author": "svetsec",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "assert": "^2.1.0",
+    "ci-info": "^4.2.0",
+    "clear-module": "^4.1.2"
+  }
+}
